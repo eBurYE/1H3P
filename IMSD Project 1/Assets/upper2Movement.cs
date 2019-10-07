@@ -17,5 +17,9 @@ public class upper2Movement : MonoBehaviour
         //transform.Rotate(1.5f, 1.5f, 1.5f);
         transform.position = new Vector3(-2 * Mathf.Sin(Time.time), 2 * Mathf.Cos(Time.time), -2 * Mathf.Cos(Time.time));
 
+        transform.position += new Vector3(
+             Input.GetAxis("Mouse X"),
+             Input.GetAxis("Mouse Y"),
+             0);
     }
 }

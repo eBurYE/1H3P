@@ -18,5 +18,7 @@ public class middle2Movement : MonoBehaviour
         transform.Translate(0.1f,0, 0);
         transform.Rotate(Circle.transform.up);
 
+
+
     }
 }
